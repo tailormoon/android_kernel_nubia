@@ -1548,20 +1548,20 @@ endif
 endif
 ################################################# SENROS END
 
-#ZTEMT ADD by ttwang
+# ZTEMT ADD by hongdanlong
 config ZTEMT_LIQUID_LED
 	bool "ZTEMT liquid led"
 	default n
 	help
 	  ZTEMT liquid led
 #ZTEMT END 
-
-config ZTEMT_BREATH_LED_NX503A
-	bool "ZTEMT_BREATH_LED_NX503A"
-	default n
+#+++
+config ZTEMT_BREATH_LED_GPIO_I2C
+	bool "ZTEMT liquid led gpio i2c"
+	default y
 	help
-	  ZTEMT_BREATH_LED_NX503A
-#ZTEMT END 
+	  ZTEMT liquid led
+#---
 if ACPI
 
 comment "ACPI drivers"

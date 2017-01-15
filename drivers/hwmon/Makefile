@@ -161,10 +161,9 @@ obj-$(CONFIG_ZTEMT_SENSORS_HALL_DEVICE_PAIR_OUT)  	+= hall_pair_out.o
 
 ################################################# SENROS END
 
-#ZTEMT ADD by ttwang
+#ZTEMT ADD by wangshuai
 obj-$(CONFIG_ZTEMT_LIQUID_LED)      += aw_9106b.o
 #ZTEMT END
-
 obj-$(CONFIG_PMBUS)		+= pmbus/
 
 ccflags-$(CONFIG_HWMON_DEBUG_CHIP) := -DDEBUG

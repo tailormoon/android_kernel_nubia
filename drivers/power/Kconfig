@@ -553,6 +553,19 @@ config ZTEMT_BATT_3000MAH
 	default n
 	help
 	  ZTEMT 3000mAh battery
+	  
+config ZTEMT_2000AMH_BATTERY
+	bool "ZTEMT 2000AMH BATTERY"
+	default n
+	help
+	  ZTEMT 2000AMH Battery Feature
+	  
+config ZTEMT_2400AMH_BATTERY
+	bool "ZTEMT 2400AMH BATTERY"
+	default n
+	help
+	  ZTEMT 2400AMH Battery Feature
+	  	  
 endmenu
 ################ZTEMT end
 config QPNP_BMS

@@ -135,7 +135,12 @@ extern struct bms_battery_data  desay_5200_data;
 extern struct bms_battery_data  oem_batt_data;
 extern struct bms_battery_data QRD_4v35_2000mAh_data;
 extern struct bms_battery_data  qrd_4v2_1300mah_data;
-
+#ifdef CONFIG_ZTEMT_2400AMH_BATTERY
+extern struct bms_battery_data  ztemt_2400mAh_data;
+#endif
+#ifdef CONFIG_ZTEMT_2000AMH_BATTERY
+extern struct bms_battery_data  ztemt_2000mAh_data;
+#endif
 #ifdef CONFIG_ZTEMT_BATT_3000MAH
 extern struct bms_battery_data  ztemt_3000mAh_data;
 #endif
